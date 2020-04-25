@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+}
+.App {
+  font-family: sans-serif;
+}
+
+/* .header {
+  background: url("https://picsum.photos/1600/900");
+  max-width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  display: flex;
+}
+
+.header-container {
+  height: 100%;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.sponsor-image {
+  border-radius: 50%;
+  padding: 16px;
+  height: 64px;
+  width: 64px;
+}
+
+.body {
+  justify-content: center;
+  padding: 24px;
+} */
+
+/* .sponsor-image-container {
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 24px;
+} */
+
+/* h1 {
+  text-align: right;
+  font-size: 3.5rem;
+  margin-right: 24px;
+} */
+@media only screen and (max-width: 768px) {
+  h1 {
+    text-align: center !important;
+    margin-right: 0 !important;
+  }
+  .header-container {
+    justify-content: center !important;
+  }
+}
+h2 {
+  text-align: center;
+}
+
+hr {
+  margin: auto;
+  background: linear-gradient(
+    90deg,
+    rgba(163, 100, 217, 1) 0%,
+    rgba(12, 215, 246, 1) 100%
+  );
+  height: 1px;
+  border: 0;
+  max-width: 900px;
+}
